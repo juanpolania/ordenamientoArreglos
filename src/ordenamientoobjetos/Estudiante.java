@@ -6,7 +6,14 @@ public class Estudiante {
     private String identificacion;
     private int puesto;
     private double nota;
-        
+    
+    public Estudiante(String nombre, String apellido, String identificacion, int puesto, double nota){
+        setNombre(nombre);
+        setApellido(apellido);
+        setIdentificacion(identificacion);
+        setPuesto(puesto);
+        setNota(nota);
+    }
     public String imprimir(){
         return "";
     }
